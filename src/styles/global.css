@@ -12,7 +12,7 @@ a {
     color: inherit;
     cursor: pointer;
 }
-input, textarea {
+input, textarea, dialog {
     border: none;
     outline-color: var(--color-black-0);
 }
