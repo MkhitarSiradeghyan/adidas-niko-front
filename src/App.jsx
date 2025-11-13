@@ -17,3 +17,5 @@ const App = () => {
 }
 
 export default App
+
+// brands section and dress styles section

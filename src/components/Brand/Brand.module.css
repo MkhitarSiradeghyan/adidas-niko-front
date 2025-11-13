@@ -1,0 +1,16 @@
+.blackpart{
+    background: var(--color-black-0);
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.brand {
+    height: 32px;
+}
+.brand > img {
+    height: 100%;
+}
