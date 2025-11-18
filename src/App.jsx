@@ -9,7 +9,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route element={<Layout/>}>
-        <Route path='/' element={<Home/>}/>
+         <Route path='/' element={<Home/>}/> 
       </Route>
     </Routes>
     </BrowserRouter>
@@ -18,4 +18,5 @@ const App = () => {
 
 export default App
 
-// brands section and dress styles section
+// dress styles section 
+

@@ -1,10 +1,11 @@
 import React from 'react'
 import s from "./Home.module.css"
-import Brand from '../../components/Brand/Brand'
+import Hero from '../../components/Hero/Hero'
 
 const Home = () => {
   return (
-    <Brand/>
+    <Hero/>
+
   )
 }
 
