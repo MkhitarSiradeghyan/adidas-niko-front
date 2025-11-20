@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './Layout.module.css';
+import s from './Layout.module.sass';
 import Banner from '../../components/Banner/Banner';
 import { Outlet } from 'react-router';
 

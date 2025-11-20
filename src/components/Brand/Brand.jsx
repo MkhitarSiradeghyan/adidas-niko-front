@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './Brand.module.css'
+import s from './Brand.module.sass'
 import Container from '../Container/Container'
 import brand1 from '../../assets/img/brand_1.png'
 import brand2 from '../../assets/img/brand_2.png'
@@ -24,7 +24,6 @@ const Brand = () => {
               {
                 brand_img.map(src => <div className={s.brand}><img src={src} alt="" /></div>)
               }
-              
             </div>
         </Container>
       </div>
