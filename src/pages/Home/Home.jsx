@@ -1,9 +1,11 @@
 import React from 'react'
-import s from "./Home.module.css"
+import s from "./Home.module.sass"
+import ProductCard from '../../components/ProductCard/ProductCard'
 
 const Home = () => {
   return (
-    <div className={s.home}>Home</div>
+    <ProductCard/>
+      
   )
 }
 
