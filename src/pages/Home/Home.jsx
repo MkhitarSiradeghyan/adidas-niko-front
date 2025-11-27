@@ -1,12 +1,17 @@
-import React from 'react'
-import s from "./Home.module.sass"
-import ProductCard from '../../components/ProductCard/ProductCard'
+import React from "react";
+import s from "./Home.module.sass";
+import ProductCard from "../../components/ProductCard/ProductCard";
+import Wrap from "../../components/Wrap/Wrap";
+import Button from "../../components/Button/Button";
+import Heading from "../../components/Heading/Heading";
 
 const Home = () => {
   return (
-    <ProductCard/>
+    <>
       
-  )
-}
 
-export default Home
+    </>
+  );
+};
+
+export default Home;
