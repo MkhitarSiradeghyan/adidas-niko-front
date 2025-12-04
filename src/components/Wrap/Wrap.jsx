@@ -8,17 +8,14 @@ import ProductCard from '../ProductCard/ProductCard';
 
 
 
-const Wrap = ({heading, button}) => {
+const Wrap = ({children, heading, button}) => {
     return(
         <div className={s.wrap}>
             <Container>
                 <div className={s.container}>
                     <Heading title={heading}/>
                     <div className={s.cards}>
-                        <ProductCard/>
-                        <ProductCard/>
-                        <ProductCard/>
-                        <ProductCard/>
+                        {children}
                     </div>
                     <Button text={button}/>
                 </div>

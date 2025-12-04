@@ -1,0 +1,26 @@
+
+.box
+    +flex(start, strtch, column)
+    border: 1px solid $color-black-1
+    border-radius: $radius-5
+    padding: 28px 32px
+    max-width: 400px
+    gap: 15px
+    .stars
+        color: $color-warning
+        +flex
+        gap: 6px
+    .review
+        +flex(start, stretch, column)
+        gap: 12px
+        .user
+            font-weight: 700
+            font-size: $size-4
+            +flex(start, center)
+            gap: 4px
+            .icon
+                color: $color-success
+        .text
+            font-weight: 400
+            font-size: $size-3
+            color: $color-black-3
